@@ -1,4 +1,7 @@
+Here is a simple footnote[^1].
 
-![задача 5 пункт 7](https://github.com/Drewplonq/netology/assets/173098668/5a29812a-1d1f-4873-a99c-552ebfcfa8b5)
-![задача 5 пункт 6](https://github.com/Drewplonq/netology/assets/173098668/34d10a0d-2f0c-446c-a241-853abfa001c7)
-@task1
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
