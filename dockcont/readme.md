@@ -1,5 +1,15 @@
 Задача 1
 
+докерфайл
+
+
+FROM nginx:1.21.1
+
+
+COPY index.html /usr/share/nginx/html/index.html
+
+
+
 https://hub.docker.com/repository/docker/plonqnet/custom-nginx/general
 
 Задача 2
@@ -30,7 +40,5 @@ https://hub.docker.com/repository/docker/plonqnet/custom-nginx/general
 
 
 
-задача 1, докерфайл
-FROM nginx:1.21.1
-COPY index.html /usr/share/nginx/html/index.html
+
 
