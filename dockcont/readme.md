@@ -27,3 +27,10 @@ https://hub.docker.com/repository/docker/plonqnet/custom-nginx/general
 <img src="https://github.com/Drewplonq/netology/blob/main/dockcont/%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%205%20%D0%BF%D1%83%D0%BD%D0%BA%D1%823.jpg" width=60% height=60%>
 <img src="https://github.com/Drewplonq/netology/blob/main/dockcont/%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%205%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%206.jpg" width=60% height=60%>
 <img src="https://github.com/Drewplonq/netology/blob/main/dockcont/task5.7.jpg" width=60% height=60%>
+
+
+
+задача 1, докерфайл
+FROM nginx:1.21.1
+COPY index.html /usr/share/nginx/html/index.html
+
